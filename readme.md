@@ -43,7 +43,9 @@ It also includes **resources for reproducibility** and miscellaneous tools for e
     - [General Principles](#general-principles)
     - [R workflows](#r-workflows)
     - [Python workflows](#python-workflows)
-  - [Writing](#writing)
+  - [Scientific Communication](#scientific-communication)
+    - [Writing Papers](#writing-papers)
+  - [Writing Tools](#writing-tools)
     - [LaTeX](#latex)
     - [Markdown](#markdown)
     - [Citations and Reference Management](#citations-and-reference-management)
@@ -162,11 +164,16 @@ It also includes **resources for reproducibility** and miscellaneous tools for e
 ### Python workflows
 - [Crash course in reproducible research in Python](http://t-redactyl.io/blog/2016/10/a-crash-course-in-reproducible-research-in-python.html) :notebook:
 
-## Writing
- * [LaTeX](#latex)
- * [Markdown](#markdown)
- * [Citations and Reference Management](#citations-and-reference-management)
-  
+## Scientific Communication
+
+### Writing Papers
+
+- MIT CommKits ([Biological Engineering](https://mitcommlab.mit.edu/be/use-the-commkit/), [Mechanical Engineering](https://mitcommlab.mit.edu/meche/use-commkit/), [Electrical Engineering and Computer Science](https://mitcommlab.mit.edu/eecs/use-the-commkit/))
+
+
+## Writing Tools
+
+ 
 -   [Comparison of different text editors](https://pandoc-scholar.github.io/)
 
 ### LaTeX
@@ -192,6 +199,7 @@ It also includes **resources for reproducibility** and miscellaneous tools for e
 -   Jabref
 
 ## Figures
+
  * [Drawing](#drawing)
  * [Image Manipulation](#image-manipulation)
 ### Drawing
