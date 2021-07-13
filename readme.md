@@ -10,14 +10,15 @@
 <div align="center">
 
 
-Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering Communication Lab](http://mitcommlab.mit.edu/be/)
+Tools, tips, & resources for STEM students/researchers 
 
 <div align="left">
 
 # Getting started
-Below is a list of resources compiled for BE Communication Lab fellows relevant to undergraduate, graduate students, and postdocs at MIT. Although there are some MIT-specific resources, this list is also relevant to any STEM student/researcher.
 
-The MIT BE Communication Lab resources are also stored within this repository and are highlighted within the list below. If you have any questions, email us at `mitbecl@gmail.com`.
+Below is a list of resources relevant to any STEM student/researcher.
+
+(This list is a fork from the resources compiled by fellows at the MIT BE Communication Lab)
 
 This list compiles resources to transform data into a clear message through:
 - **data analysis and visualization,**
@@ -26,40 +27,57 @@ This list compiles resources to transform data into a clear message through:
 - **design tools and resources,**
 - **professional resources.**
 
-It also includes **resources for reproducibility** and miscellaneous tools for biological engineering research (e.g. plasmid design, flow cytometry analysis, next-generation sequencing).
+It also includes **resources for reproducibility** and miscellaneous tools for engineering research
 
----
-- [Legend](#legend)
-- [Computing](#computing)
-- [Data Visualization](#data-visualization)
-- [Reproducible Analysis](#reproducible-analysis)
-- [Writing](#writing)
-- [Figures](#figures)
-- [Design Tools & Resources](#design-tools---resources)
-- [Poster Design](#poster-design)
-- [Scientific Software](#scientific-software)
-- [Unsorted Weblinks](#unsorted-weblinks)
-- [Professional Resources](#professional-resources)
-- [Miscellaneous & Unsorted](#miscellaneous---unsorted)
-- [License](#license)
-
+- [Getting started](#getting-started)
+  - [Legend](#legend)
+  - [Computing](#computing)
+    - [Programming](#programming)
+  - [Data Visualization](#data-visualization)
+    - [Data Visualization Resources](#data-visualization-resources)
+    - [Plotting Tools](#plotting-tools)
+      - [Python Plotting](#python-plotting)
+      - [R Plotting](#r-plotting)
+      - [Other Plotting tools](#other-plotting-tools)
+  - [Reproducible Analysis](#reproducible-analysis)
+    - [General Principles](#general-principles)
+    - [R workflows](#r-workflows)
+    - [Python workflows](#python-workflows)
+  - [Writing](#writing)
+    - [LaTeX](#latex)
+    - [Markdown](#markdown)
+    - [Citations and Reference Management](#citations-and-reference-management)
+  - [Figures](#figures)
+    - [Drawing](#drawing)
+    - [Image Manipulation](#image-manipulation)
+  - [Design Tools & Resources](#design-tools--resources)
+    - [Color](#color)
+    - [Fonts & Typography](#fonts--typography)
+    - [Icons](#icons)
+    - [Images](#images)
+  - [Poster Design](#poster-design)
+    - [Poster Design Tools](#poster-design-tools)
+    - [Poster Templates](#poster-templates)
+    - [Poster Galleries](#poster-galleries)
+  - [Professional Resources](#professional-resources)
+  - [Miscellaneous & Unsorted](#miscellaneous--unsorted)
+  - [License](#license)
 
 ## Legend
 
-| Symbol | Meaning |
-|:----------:|:-------:|
-|:free:| no upfront cost|
-|:unlock:| open source |
-|:dollar: | small cost |
-|:moneybag:| large cost|
-|:package:| Computing Package |
-|:books:| Resource |
+|   Symbol   |      Meaning      |
+|:----------:|:-----------------:|
+|   :free:   |  no upfront cost  |
+|  :unlock:  |    open source    |
+|  :dollar:  |    small cost     |
+| :moneybag: |    large cost     |
+| :package:  | Computing Package |
+|  :books:   |     Resource      |
 
 ---
 
 ## Computing
  * [Programming](#programming)
-  * [Computing Clusters at MIT](#computing-clusters-at-mit)
 ### Programming
 *Students typical use the follow resources to analyze and plot data for class and research purposes.*
 
@@ -72,25 +90,6 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 - [MATLAB](https://www.mathworks.com/products/matlab.html) :moneybag: - commercial computing environment offered at MIT for affiliates. See [Gnu Octave](https://www.gnu.org/software/octave/) for an open source :unlock: alternative.
 
 - Other computing languages/platforms used include [Julia](https://julialang.org/) and  [Go](https://golang.org/), but their user bases are much smaller.
-
-### Computing Clusters at MIT
-*Computing clusters are available at MIT and affiliate institutions for use by students and non-affiliates.*  
-
-- [Athena](https://ist.mit.edu/athena?category=19) – computing environment offering remote environments with pre-installed software and file storage
-
-- [TIG](https://tig.csail.mit.edu/) - CSAIL group offering computing services
-
-- [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/), [Microsoft Azure](https://azure.microsoft.com/en-us/) - commercially available services simple to setup with researcher funds
-
-- [C3DDB](https://www.mghpcc.org/resources/computer-systems-at-the-mghpcc/c3ddb/) - Boston-wide resource for life science researchers
-
-- [Koch Institute Bioinformatics & Computing Core](https://ki.mit.edu/sbc/bioinformatics/services) - offers a variety of cloud computing resources
-
-- [McGovern Institute Core](https://mcgovern.mit.edu/technology/high-performance-computing-cluster) - Linux-based cluster offering storage and CPU/GPU performance
-
-- Other institutes (e.g. Broad Institute) and groups offer internal computing resources, inquire directly to gain access
-
----
 
 ## Data Visualization
 * [Data Visualization Resources](#data-visualization-resources)
@@ -147,7 +146,9 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 * [General Principles](#general-principles)
   * [R workflows](#r-workflows)
   * [Python workflows](#python-workflows)
+
 ### General Principles
+
 - [Naming files and projects](https://speakerdeck.com/jennybc/how-to-name-files) :notebook:, a slide deck compiled by Jenny Bryan (@JennyBryan), software engineer at RStudio
 
 ### R workflows
@@ -190,7 +191,6 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 -   Readcube
 -   Jabref
 
-
 ## Figures
  * [Drawing](#drawing)
  * [Image Manipulation](#image-manipulation)
@@ -208,9 +208,6 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 -   [Affinity Designer](https://affinity.serif.com/en-us/designer/) :dollar:
 -   [GIMP](https://www.gimp.org/) :free: :unlock: The GNU Image Manipulation Program
 -   ImageJ/Fiji :free: :unlock:
-
-
-
 
 
 ## Design Tools & Resources
@@ -246,7 +243,6 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 
 -   [Unsplash](https://unsplash.com/) - downloadable high-quality images
 
-
 ## Poster Design
 * [Poster Design Tools](#poster-design-tools)
 * [Poster Templates](#poster-templates)
@@ -266,65 +262,6 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 ### Poster Galleries
 
 - [null](link)
-
-
-
-## Scientific Software
-* [Chemical Structures](#chemical-structures)
-* [Analytical Chemistry](#analytical-chemistry)
-* [Protein Structure Visualization](#protein-structure-visualization)
-* [Plasmid Editors](#plasmid-editors)
-* [Flow Cytometry](#flow-cytometry)
-* [Microscopy Analysis](#microscopy-analysis)
-
-### Chemical Structures
-
-- [ChemDraw](link)
-
-### Analytical Chemistry
-
-- [Mnova](mestrelab.com/software/mnova/)
-
-### Protein Structure Visualization
-
-- [Chimera](https://www.cgl.ucsf.edu/chimera/)
-- [Pymol](https://pymol.org/2/)
-
-### Plasmid Editors
-
-- [ApE](http://jorgensen.biology.utah.edu/wayned/ape/) :free:
-- [Benchling](https://benchling.com/) - a web-based plasmid editor and database :free:
-- [Geneious](link) :moneybag:
-- [SnapGene](link) :moneybag:
-
-
-### Flow Cytometry
-
-- [Flowjo](link) :moneybag:
-- [Cytoflow](http://bpteague.github.io/cytoflow/) :free: :unlock:
-
-### Microscopy Analysis
-
--   [CellProfiler](http://cellprofiler.org/)
--   [ImageJ](https://imagej.nih.gov/ij/)
-
-## Unsorted Weblinks
-
-
--   BLAST
--   TCoffee
--   [MPI Bioinformatics Toolkit](https://toolkit.tuebingen.mpg.de/#/)
--   [HMMER](http://hmmer.org/)
--   ClustalOmega
--   GSEA
--   Weblogo
--   Pfam
--   Espript
--   Primer3
--   Ensembl
-
-
-
 
 ## Professional Resources
 
